@@ -1,1 +1,23 @@
-// TODO
+.content {
+  max-width: 700px;
+
+  h1 {
+    font: 700 1.75rem "Inter", sans-serif;
+    padding-bottom: 1rem;
+  }
+
+  h3 {
+    font: 400 2.25rem "Inter", sans-serif;
+    padding-bottom: 1.125rem;
+  }
+
+  .postFooter {
+    display: flex;
+
+    time, p {
+      font-weight: 400;
+      font-size: 1.75;
+      padding-right: 0.875rem;
+    }    
+  }
+}

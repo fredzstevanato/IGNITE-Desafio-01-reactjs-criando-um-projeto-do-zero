@@ -2,6 +2,45 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font: 400 1rem "Inter", sans-serif;
+  color: var(--Info);
 }
 
-// TODO
+:root {
+  --Highlight: #FF57B2;
+  --Heading: #F8F8F8;
+  --Background: #1A1D23;
+  --Info: #BBBBBB;
+  --Body: #D7D7D7;
+}
+
+@media (max-width: 1080px) {
+  html {
+    font-size: 93.75%;
+  }
+}
+
+@media (max-width: 720px) {
+  html {
+    font-size: 87.5%;
+  }
+}
+
+body {
+  background: var(--Background);
+  color: var(--Body);
+}
+
+h1 {
+  color: var(--Heading)
+}
+
+
+button {
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+}
+
